@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Question #3</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" media="screen" href="bare.min.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <style>
+            p {
+                margin: 8px;
+                font-size: 16px;
+            }
+            .w3r_font_color {
+                color: blue;
+            }
+            .w3r_background {
+                background: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <p>PHP</p>
+        <p>Java</p>
+        <p>Python</p>
+
+        <a href="index.html">Back to Home</a>
+
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            $("p")
+                .last()
+                .addClass("w3r_font_color w3r_background");
+        </script>
+    </body>
+</html>

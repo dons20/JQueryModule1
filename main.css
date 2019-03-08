@@ -1,0 +1,20 @@
+body {
+    padding: 10px;
+}
+
+input[type="radio"]:not([class]) {
+    opacity: initial;
+    margin-right: initial;
+}
+
+.links a {
+    display: block;
+}
+
+a[href="index.html"] {
+    font-weight: bold;
+}
+
+a[href="index.html"]:hover {
+    text-decoration: underline;
+}

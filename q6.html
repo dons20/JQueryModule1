@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Question #6</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" media="screen" href="bare.min.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    </head>
+    <body>
+        <p>This is a paragraph.</p>
+        <div><p>This is a paragraph within a division.</p></div>
+        <p>Here is a another paragraph.</p>
+        <div>This is a <span>span</span> element within a division.</div>
+
+        <a href="index.html">Back to Home</a>
+
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            $("div")
+                .children()
+                .css("border-bottom", "2px solid red");
+        </script>
+    </body>
+</html>

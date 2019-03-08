@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Question #1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" media="screen" href="bare.min.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <td>R1C1 Index-0</td>
+                <td>R1C2 Index-0</td>
+            </tr>
+            <tr>
+                <td>R2C1 Index-0</td>
+                <td>R2C2 Index-1</td>
+            </tr>
+            <tr>
+                <td>R3C1 Index-0</td>
+                <td>R3C2 Index-2</td>
+            </tr>
+            <tr>
+                <td>R4C1 Index-0</td>
+                <td>R4C2 Index-3</td>
+            </tr>
+            <tr>
+                <td>R5C1 Index-0</td>
+                <td>R5C2 Index-4</td>
+            </tr>
+        </table>
+
+        <button id="button1">Click to see the effect</button>
+
+        <a href="index.html">Back to Home</a>
+
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            $("#button1").click(function() {
+                $("tr:even").css({
+                    "background-color": "#42d3ff",
+                    font: "800 16px Arial, sans-serif"
+                });
+            });
+        </script>
+    </body>
+</html>
